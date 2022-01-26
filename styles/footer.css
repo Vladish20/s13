@@ -1,0 +1,186 @@
+footer ul.cols>li:nth-child(3) {
+    text-align: center;
+    width: 22%;
+}
+
+.megasocial0 {
+    display: inline-block;
+    position: relative;
+}
+
+.megasocial0 ul {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+    overflow: visible !important;
+}
+
+.megasocial0 ul li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    text-align: center;
+}
+
+.megasocial ul li {
+    margin: 0px 1vw 0 0!important;
+    height: auto!important;
+}
+
+.megasocial ul li:last-child {
+    margin: 0!important;
+}
+
+footer ul.cols>li:nth-child(4) {
+    text-align: center;
+    width: 12%;
+}
+
+footer ul.cols>li:nth-child(4) img {
+    width: 78%;
+    height: auto;
+    max-width: 88px;
+    opacity: .5;
+}
+
+footer ul.cols>li:nth-child(5) {
+    text-align: right;
+}
+
+footer ul.cols>li:nth-child(5) noindex {
+    display: none;
+}
+
+footer span.count {
+    display: block;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 1vw 0 0;
+}
+
+div.place>ul.cols>li:last-child {
+    border: 0;
+}
+footer ul.cols>li:nth-child(6) {
+    width: 3.5vw;
+    text-align: center;
+}
+
+.megac1643036711177 {
+    display: inline-block !important;
+    float: none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    border: 0px !important;
+    vertical-align: middle !important;
+}
+
+.megac1643036711177 a {
+    display: table !important;
+    font-family: wf_SegoeUILight, wf_SegoeUI, "Segoe UI Light", "Segoe WP Light", "Segoe UI", Segoe, "Segoe WP", Helvetica, Arial, sans-serif !important;
+    text-decoration: none !important;
+    color: rgb(37, 37, 37) !important;
+    font-size: 10px !important;
+    line-height: 8px !important;
+    letter-spacing: 0px !important;
+    text-transform: uppercase !important;
+}
+
+.megac div a svg {
+    width: 2vw!important;
+    height: 2vw!important;
+    padding: .4vw!important;
+}
+
+.megac1643036711177 a svg path {
+    fill: rgb(255, 255, 255) !important;
+}
+
+.megac1643036711177 * {
+    box-sizing: border-box !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    float: none !important;
+    text-align: left !important;
+    vertical-align: middle !important;
+    position: relative !important;
+    border: 0px !important;
+}
+
+.megac1643036711177.megaclogo a span {
+    display: none !important;
+}
+
+.megac1643036711177 a span {
+    display: table-cell !important;
+    padding: 0px 0px 0px 6px !important;
+}
+
+.megac1643036711177 a span:last-child span {
+    display: block !important;
+    padding: 0px !important;
+}
+
+.megac1643036711177 a span:last-child span:last-child {
+    display: block !important;
+    padding: 1px 0px 0px !important;
+}
+
+#totop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 3.5vw;
+    height: 3.5vw;
+    background: #e81d55;
+    text-align: center;
+}
+
+#totop svg {
+    width: 50%;
+    height: auto;
+    overflow: visible;
+    margin-top: .4vw;
+}
+
+#totop svg polyline {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: .4;
+    stroke-linejoin: miter;
+}
+footer ul.cols>li:nth-child(2) {
+    color: #ffffff;
+    width: 37%;
+}
+
+footer {
+    border-top: 1px solid #ffffff;
+}
+
+div.place span.info span.text {
+    font-size: .6vw;
+    font-family: "helvetica-light",Arial,Helvetica,sans-serif;
+    color: #ffffff!important;
+    display: inline-block;
+    line-height: .75vw;
+    text-transform: none;
+}
+
+div.place span.info span.copy {
+    font-size: .6vw;
+    font-family: "helvetica-light",Arial,Helvetica,sans-serif;
+    color: #ffffff;
+    display: block;
+    line-height: .6vw;
+    text-transform: none;
+    opacity: .5;
+}

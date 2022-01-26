@@ -1,0 +1,196 @@
+.place{
+    background: #3b3358;
+    color: rgba(255,255,255,.5);
+}
+
+.place>ul.cols {
+    height: 3.5vw;
+}
+
+.place>ul.cols>li:nth-child(1) {
+    width: 4.6vw;
+    background: #e81d55;
+    border-right: 1px solid #ffffff;
+    overflow: hidden;
+}
+
+.place a.logo {
+    position: absolute;
+    background: #e81d55;
+    width: 4.5vw;
+    height: 3.5vw;
+    vertical-align: middle;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.place>ul.cols>li {
+    border-right: 1px solid rgba(255,255,255,.2);
+}
+
+
+ul.cols {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    overflow: visible!important;
+}
+
+
+ul.cols>li {
+    display: table-cell;
+    list-style-type: none;
+    vertical-align: middle;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+header nav {
+    position: relative;
+}
+
+header nav span.login:hover {
+    background-color: rgba(255,255,255,.2);
+}
+
+header nav span.search:hover {
+    background-color: rgba(255,255,255,.2);
+}
+
+header nav span.view:hover {
+    background-color: rgba(255,255,255,.2);
+}
+
+ul li {
+    padding: 0px;
+    margin: 0px 0px .5vw 1.5vw;
+    text-align: left;
+}
+
+.section {
+    width: 900px;
+    height: 100px;
+}
+
+a:link, a:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+img, svg {
+    overflow: visible;
+    vertical-align: middle;
+}
+
+div.place span.info {
+    font-size: .8vw;
+    font-family: "helvetica-black",Arial,Helvetica,sans-serif;
+    padding: .7vw 1vw;
+    display: inline-block;
+    line-height: .8vw;
+    margin: 0px!important;
+    text-transform: uppercase;
+}
+
+header nav span.view.list {
+    background-image: url(/content/table.png);
+}
+
+header nav span.view {
+    display: inline-block;
+    width: 3.5vw;
+    height: 3.5vw;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: all .5s;
+    background-size: 1.5vw auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header ul.cols li:nth-child(2) {
+    width: 9vw;
+}
+
+header ul.cols li:nth-child(3) {
+    width: 3.5vw;
+    height: 3.5vw;
+    text-align: center;
+}
+
+header nav span.login {
+    display: inline-block;
+    width: 3.5vw;
+    height: 3.5vw;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: all .5s;
+    background-size: 1.5vw auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/content/login.png);
+}
+
+header ul.cols li:nth-child(4) a.on, header ul.cols li:nth-child(4) a:hover {
+    opacity: .5;
+}
+
+header ul.cols li:nth-child(5) {
+    width: 3.5vw;
+    height: 3.5vw;
+    text-align: center;
+}
+
+header nav span.search {
+    display: inline-block;
+    width: 3.5vw;
+    height: 3.5vw;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: all .5s;
+    background-size: 1.5vw auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/content/search.png);
+}
+
+header ul.cols li:nth-child(6) {
+    width: 3.5vw;
+    height: 3.5vw;
+    text-align: center;
+}
+
+header ul.cols li:nth-child(4) {
+    text-align: center;
+    height: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1vw;
+}
+
+header ul.cols li:nth-child(4) a {
+    font-family: "helvetica-black",Arial,Helvetica,sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8vw;
+    letter-spacing: -.03vw;
+    display: flex;
+    padding: 0;
+    text-shadow: 0px 1px 1px rgb(0 0 0 / 20%);
+    transition: all .5s;
+}
